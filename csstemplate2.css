@@ -1,0 +1,699 @@
+body {
+  background-color: #28282b;
+  padding: 3%;
+  margin: 0;
+}
+.clear {
+  clear: both;
+}
+#logo {
+  float: left;
+  padding-right: 15%;
+}
+ul {
+  list-style: none;
+  font-family: 'Questrial', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 1%;
+  margin: 1%;
+}
+
+ul a:last-child {
+  background-color: #cb410b;
+  color: cornsilk;
+  padding: 1% 3%;
+  margin: 0;
+  border-radius: 50px;
+}
+.login:hover {
+  background-color: floralwhite;
+}
+header {
+  padding: 0% 5% 1% 18%;
+}
+header a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 1em;
+}
+
+.section1 {
+  background: url(gamezone.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 80vh;
+  padding: 12%;
+  margin: auto;
+}
+.outdiv {
+  padding: 2%;
+  float: left;
+}
+
+.smalldiv1,
+.smalldiv3,
+.smalldiv2 {
+  width: 300px;
+  height: 400px;
+  background-color: #28282b;
+  float: left;
+  border-radius: 10px;
+}
+.smalldiv1 .heading,
+.smalldiv3 .heading,
+.smalldiv2 .heading {
+  font: 2rem bold;
+  font-family: questrial;
+  background-color: #f5f5f5;
+  color: #28282b;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.smalldiv1 img,
+.smalldiv2 img {
+  width: 300px;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.smalldiv3 img {
+  width: 300px;
+  height: 168px;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.smalldiv1 .para {
+  color: #f5f5f5;
+  font: 1.5rem bold;
+  font-family: questrial;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.smalldiv2 .para {
+  color: #f5f5f5;
+  font: 1.5rem bold;
+  font-family: questrial;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.smalldiv3 .para {
+  color: #f5f5f5;
+  font: 1.5rem bold;
+  font-family: questrial;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.button {
+  margin: 1% 35.5%;
+  font-family: josefin, sans-serif;
+
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+}
+.button2::after {
+  content: '\00BB';
+}
+.button::after {
+  content: '\00BB';
+}
+.button3::after {
+  content: '\00BB';
+}
+.button2 {
+  margin: 0 35.5% 3% 35.5%;
+  font-family: josefin, sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+}
+.outdiv2 {
+  padding-left: 13%;
+  padding-top: 7%;
+}
+.outdiv2 div {
+  float: left;
+  padding: 1em;
+  width: 40%;
+}
+#sec2 {
+  background-color: #f5f5f5;
+  margin-left: -3%;
+  margin-right: -3%;
+  height: 100vh;
+}
+.section2 {
+  background-color: #f5f5f5;
+}
+
+.outdiv2 .heading {
+  font: 2rem bold;
+  font-family: questrial;
+  background-color: #f5f5f5;
+  color: #28282b;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.news {
+  font: 1rem bold;
+  font-family: questrial;
+  background-color: #f5f5f5;
+  color: #28282b;
+  margin: 0px;
+  text-align: center;
+}
+.newspara {
+  font: 1em bold;
+  font-family: questrial;
+  background-color: #f5f5f5;
+  color: #28282b;
+  margin: 1%;
+  display: block;
+}
+sub {
+  color: green;
+  font-size: 12px;
+}
+.div1 {
+  border-right: solid 1px grey;
+}
+.div2 {
+  padding-left: 1%;
+  padding-top: 0;
+  float: left;
+}
+#sec3 {
+  height: 50vh;
+  background-color: #aeaeae;
+  margin: -1.5% -3% -3% -3%;
+}
+.sec3para {
+  height: 50%;
+}
+#sec3 .heading {
+  font: 2rem bolder;
+  font-family: questrial;
+  color: #28282b;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+.sub2 {
+  font: 1rem lighter;
+  font-family: questrial;
+  color: #28282b;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+.sec3box {
+  height: 50%;
+  padding: 0 11%;
+}
+.sec3box div {
+  background-color: #28282b;
+  width: 530px;
+  height: 110px;
+  padding: 0.3%;
+  float: left;
+  margin: 1% 1%;
+  border-radius: 10px 10px;
+}
+.sec3box img {
+  width: 180px;
+  float: left;
+  border: solid 5px whitesmoke;
+  margin-right: 2%;
+  border-radius: 10px 10px;
+}
+.sec3box p {
+  font: 18px bolder;
+  font-family: 'Josefin', sans-serif;
+  color: #f5f5f5;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+.button3 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding: 3px;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  margin-top: 2%;
+}
+footer {
+  width: 100%;
+  height: 55%;
+  margin-top: 3%;
+}
+.footersec {
+  width: 76%;
+  padding: 4% 0;
+  margin: auto;
+}
+.footersec div {
+  float: left;
+}
+.footdiv1 {
+  width: 50%;
+  color: #f5f5f5;
+  font-family: questrial;
+  font-size: 0.8rem;
+}
+.footdiv2 {
+  width: 24%;
+
+  font-family: questrial;
+  font-size: 0.8rem;
+  color: #f5f5f5;
+}
+.footdiv2 a {
+  color: lightgreen;
+}
+
+.footdiv3 {
+  width: 25%;
+  font-family: questrial;
+  font-size: 0.8rem;
+  color: #f5f5f5;
+}
+.footdiv3 input {
+  background-color: #28282b;
+  border: solid 1px #f5f5f5;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 80%;
+}
+.footdiv3 button {
+  font-family: questrial;
+  color: #28282b;
+  background-color: #f5f5f5;
+  border: 1px solid #28282b;
+  border-radius: 5px;
+}
+.copyrightsec {
+  background-color: black;
+  margin: 0 -3% -3% -3%;
+}
+#copyrights {
+  font-family: questrial;
+  font-size: 0.8rem;
+  color: grey;
+  margin-left: 14%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+@media only screen and (min-width: 1500px) {
+  .sec3box {
+    margin-left: 10%;
+  }
+  .section1 {
+    padding: 10% 21%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1200px) {
+  .section1 {
+    padding-left: 4%;
+    padding-right: 2%;
+    margin: auto;
+  }
+  .sec3box {
+    padding: 0 3%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    margin: 0;
+  }
+  header {
+    padding: 0 4%;
+  }
+  header a {
+    padding: 0 5%;
+  }
+  #logo {
+    float: none;
+    margin-left: 35%;
+    width: 30%;
+  }
+  ul {
+    margin-left: 2%;
+  }
+  .smalldiv1,
+  .smalldiv2,
+  .smalldiv3 {
+    border: #f5f5f5 solid 2px;
+  }
+  .section1 {
+    padding-left: 15%;
+  }
+  .smalldiv3 {
+    margin-left: 54%;
+  }
+  .sec3box {
+    display: inline;
+  }
+  .sec3box div {
+    float: left;
+    margin: 1%;
+    width: 55%;
+  }
+
+  .sec3box img {
+    width: 175px;
+    float: left;
+    border: solid 5px whitesmoke;
+    border-radius: 10px 10px;
+  }
+  #sec3 {
+    height: 70vh;
+  }
+  #sec3 .heading {
+    font: 2em bolder;
+    font-family: questrial;
+    color: #28282b;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .sub2 {
+    font: 0.6em lighter;
+    font-family: questrial;
+    color: #28282b;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .sec3box div {
+    background-color: #28282b;
+    display: inline;
+    padding: 0.2%;
+    float: left;
+    margin: 1% 22%;
+    border-radius: 10px 10px;
+  }
+  .sec3box p {
+    font: 17px bolder;
+    font-family: 'Josefin', sans-serif;
+    color: #f5f5f5;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0;
+    margin-top: 1%;
+  }
+  .sec3para {
+    height: 30%;
+  }
+  .footdiv1 {
+    width: 40%;
+    padding-right: 10%;
+    color: #f5f5f5;
+    font-family: questrial;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  body {
+    margin: 0;
+  }
+  header {
+    padding: 0 4%;
+  }
+  #logo {
+    float: none;
+    margin-left: 30%;
+    width: 40%;
+  }
+  .section1 {
+    background: url(gamezone.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 80vh;
+    padding: 0 30%;
+    margin-bottom: 1%;
+  }
+  header a {
+    padding: 0 4%;
+  }
+  .outdiv2 {
+    padding-left: 1%;
+    padding-top: 1%;
+    display: inline;
+  }
+  .smalldiv1,
+  .smalldiv2,
+  .smalldiv3 {
+    border: #f5f5f5 solid 2px;
+  }
+  .smalldiv3 {
+    margin-left: 0;
+  }
+  .outdiv2 div {
+    padding: 1em;
+    width: 80%;
+  }
+  .div1 {
+    border-bottom: 1px grey solid;
+    border-right: none;
+  }
+  .div2 {
+    font-size: 94%;
+    margin-top: 5%;
+  }
+  .newspara {
+    font-size: 1em;
+  }
+  #sec2 {
+    height: 150vh;
+    padding-left: 14%;
+    display: inline-block;
+  }
+  .section2 {
+    display: inline;
+  }
+
+  .sec3box {
+    display: inline;
+  }
+  .sec3box div {
+    float: none;
+    margin: 1%;
+
+    width: 70%;
+  }
+
+  .sec3box img {
+    width: 175px;
+    float: left;
+    border: solid 5px whitesmoke;
+    border-radius: 10px 10px;
+  }
+  #sec3 {
+    height: 70vh;
+  }
+  #sec3 .heading {
+    font: 2em bolder;
+    font-family: questrial;
+    color: #28282b;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .sub2 {
+    font: 0.6em lighter;
+    font-family: questrial;
+    color: #28282b;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .sec3box div {
+    background-color: #28282b;
+    display: inline;
+    padding: 0.2%;
+    float: left;
+    margin: 1% 15%;
+    border-radius: 10px 10px;
+  }
+  .sec3box p {
+    font: 17px bolder;
+    font-family: 'Josefin', sans-serif;
+    color: #f5f5f5;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0;
+    margin-top: 1%;
+  }
+  .sec3para {
+    height: 30%;
+  }
+  .section1,
+  #sec2,
+  #sec3,
+  footer {
+    margin: 0;
+  }
+  .button3 {
+    font-family: sans-serif;
+    font-size: 80%;
+    padding: 3px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2%;
+  }
+  .footdiv1 {
+    width: 40%;
+    padding-right: 10%;
+    color: #f5f5f5;
+    font-family: questrial;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body {
+    margin: 0;
+  }
+  header {
+    padding: 0;
+  }
+  #logo {
+    float: none;
+    margin-left: 30%;
+    width: 40%;
+  }
+  .section1 {
+    background: url(gamezone.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 80vh;
+    padding: 0 21%;
+    margin-bottom: 1%;
+  }
+  header a {
+    padding: 0 3%;
+    text-align: center;
+  }
+  .outdiv2 {
+    padding-left: 1%;
+    padding-top: 1%;
+    display: inline;
+  }
+  .smalldiv1,
+  .smalldiv2,
+  .smalldiv3 {
+    border: #f5f5f5 solid 2px;
+  }
+  .smalldiv3 {
+    margin-left: 0;
+  }
+  .outdiv2 div {
+    padding: 1em;
+    width: 80%;
+  }
+  .div1 {
+    border-bottom: 1px grey solid;
+    border-right: none;
+  }
+  .div2 {
+    font-size: 94%;
+    margin-top: 5%;
+  }
+  .newspara {
+    font-size: 1em;
+  }
+  #sec2 {
+    height: 130vh;
+    padding-left: 10%;
+    display: inline-block;
+  }
+  .section2 {
+    display: inline;
+  }
+
+  .sec3box {
+    display: inline;
+  }
+  .sec3box div {
+    float: none;
+    margin: 1%;
+    width: 80%;
+  }
+
+  .sec3box img {
+    width: 150px;
+    float: left;
+    border: solid 5px whitesmoke;
+
+    margin: 2%;
+    border-radius: 10px 10px;
+  }
+  #sec3 {
+    height: 60vh;
+  }
+  #sec3 .heading {
+    font: 1.5em bolder;
+    font-family: questrial;
+    color: #28282b;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .sub2 {
+    font: 0.5em lighter;
+    font-family: questrial;
+    color: #28282b;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .sec3box div {
+    background-color: #28282b;
+    display: inline;
+    padding: 0.2%;
+    float: left;
+    margin: 1% 10%;
+    border-radius: 10px 10px;
+  }
+  .sec3box p {
+    font: 14px bolder;
+    font-family: 'Josefin', sans-serif;
+    color: #f5f5f5;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0;
+    margin-top: 1%;
+  }
+  .sec3para {
+    height: 30%;
+  }
+  .section1,
+  #sec2,
+  #sec3,
+  footer {
+    margin: 0;
+  }
+  .button3 {
+    font-family: sans-serif;
+    font-size: 80%;
+    padding: 3px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2%;
+  }
+  .footdiv1 {
+    width: 40%;
+    padding-right: 10%;
+    color: #f5f5f5;
+    font-family: questrial;
+    font-size: 0.8rem;
+  }
+}
